@@ -67,8 +67,8 @@
         braket_layer {
             bindings = <
         &trans            &trans             &trans        &trans             &trans         &kp RA(N8)     &kp RA(N7)     &kp RA(N0)     &kp RA(N9)   &kp LS(N7)
-        &kp RS(RC(LEFT))  &kp LC(BACKSPACE)  &kp DEL       &trans             &trans         &kp DE_LT  &kp LS(N8)     &kp LS(N9)     &kp RS(N0)   &kp EXCL
-&trans  &trans            &trans             &trans        &trans             &trans         &kp PIPE2      &kp LS(MINUS)  &kp LS(COMMA)  &kp LS(DOT)  &kp RA(E)   &trans
+        &kp RS(RC(LEFT))  &kp LC(BACKSPACE)  &kp DEL       &trans             &trans         &kp DE_LT      &kp LS(N8)     &kp LS(N9)     &kp RS(N0)   &kp EXCL
+&trans  &trans            &trans             &trans        &trans             &trans         &kp DE_GT      &kp LS(MINUS)  &kp LS(COMMA)  &kp LS(DOT)  &kp RA(E)   &trans
                                              &kp LS(HOME)  &kp LS(LC(RIGHT))  &kp LS(END)    &trans         &trans         &trans
             >;
         };
@@ -76,7 +76,7 @@
         symbol_layer {
             bindings = <
                &kp LS(N3)    &kp RA(MINUS)  &kp LS(N7)  &kp SLASH          &kp EQUAL           &trans      &trans            &trans      &trans  &trans
-               &kp PERCENT   &kp RS(PIPE)   &kp LS(N2)  &kp LS(N6)         &kp SINGLE_QUOTE    &trans      &trans            &trans      &trans  &trans
+               &kp PERCENT   &kp RS(PIPE)   &kp LS(N2)  &kp LS(N6)         &kp DE_PIPE         &trans      &trans            &trans      &trans  &trans
 &kp LS(GRAVE)  &kp RA(RBKT)  &kp GRAVE      &kp RA(Q)   &kp BACKSLASH      &kp DOLLAR          &trans      &trans            &trans      &trans  &trans  &trans
                                             &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT
             >;
