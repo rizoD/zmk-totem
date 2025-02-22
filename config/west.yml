@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zmk-locales
+      url-base: https://github.com/joelspadin/zmk-locales
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: locales
+      remote: zmk-locales
+      revsion: main
   self:
     path: config
