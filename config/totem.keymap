@@ -26,9 +26,9 @@
         base_layer {
             label = "BASE";
             bindings = <
-                &kp Q           &kp W    &kp E      &kp R     &kp T          &kp Y      &kp U    &kp I      &kp O    &kp P
+                &kp Q           &kp W    &kp E      &kp R     &kp T          &kp DE_Z      &kp U    &kp I      &kp O    &kp P
                 &kp A           &lt 3 S  &lt 1 D    &lt 4 F   &kp G          &kp H      &lt 5 J  &lt 6 K    &kp L    &kp ENTER
-&sk LEFT_SHIFT  &mt LEFT_ALT Z  &kp X    &kp C      &kp V     &kp B          &kp N      &kp M    &kp COMMA  &kp DOT  &mt RIGHT_ALT SLASH  &sk LEFT_SHIFT
+&sk LEFT_SHIFT  &mt LEFT_ALT DE_Y  &kp X    &kp C      &kp V     &kp B          &kp N      &kp M    &kp COMMA  &kp DOT  &mt RIGHT_ALT SLASH  &sk LEFT_SHIFT
                                          &kp LCTRL  &kp BSPC  &lt 2 SPACE    &lt 7 TAB  &kp ESC  &kp RCTRL
             >;
         };
@@ -93,10 +93,10 @@
 
         umlaut_layer {
             bindings = <
-        &trans            &trans             &trans  &trans  &trans    &trans           &kp DE_U_UMLAUT   &trans      &kp DE_O_UMLAUT   &trans
-        &kp DE_A_UMLAUT   &kp DE_CAPITAL_SZ  &trans  &trans  &trans    &kp L            &kp LEFT_GUI      &kp LA(F4)  &kp LC(F4)        &kp LC(W)
-&trans  &trans            &trans             &trans  &trans  &trans    &kp LS(LA(TAB))  &kp LA(TAB)       &trans      &trans            &trans     &trans
-                                             &trans  &trans  &trans    &trans           &trans            &trans
+        &trans            &trans             &kp DE_EURO    &trans  &trans    &trans           &kp DE_U_UMLAUT   &trans      &kp DE_O_UMLAUT   &trans
+        &kp DE_A_UMLAUT   &kp DE_CAPITAL_SZ  &trans         &trans  &trans    &kp L            &kp LEFT_GUI      &kp LA(F4)  &kp LC(F4)        &kp LC(W)
+&trans  &kp DE_MICRO      &trans             &trans         &trans  &trans    &kp LS(LA(TAB))  &kp LA(TAB)       &trans      &trans            &trans     &trans
+                                             &trans         &trans  &trans    &trans           &trans            &trans
             >;
         };
     };
