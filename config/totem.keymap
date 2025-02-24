@@ -82,12 +82,12 @@
             >;
         };
 
-        vs_layer {
+         vs_layer {
             bindings = <
-        &kp F12    &kp F9              &kp F10  &kp F11        &trans    &kp F1         &kp F3         &trans               &trans               &trans
-        &kp LC(F)  &kp RS(RC(PERIOD))  &kp F8   &kp RS(RC(R))  &trans    &kp F7         &kp F5         &trans               &kp RC(PAUSE_BREAK)  &trans
-&trans  &trans     &trans              &kp F6   &kp F4         &trans    &kp F4         &kp F2         &trans               &trans               &trans  &trans
-                                       &trans   &trans         &trans    &kp RS(RC(R))  &kp RS(RC(B))  &kp RC(PAUSE_BREAK)
+        &kp F12    &kp F9              &kp F10          &kp F11              &trans                 &kp F1         &kp F3         &trans               &trans               &trans
+        &kp LC(F)  &kp RS(RC(PERIOD))  &kp F8           &kp RS(RC(R))        &trans                 &kp F7         &kp F5         &trans               &kp RC(PAUSE_BREAK)  &trans
+&trans  &trans     &trans              &kp F6           &kp F4               &trans                 &kp F4         &kp F2         &trans               &trans               &trans  &trans
+                                       &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LA(PRINTSCREEN)    &kp RS(RC(R))  &kp RS(RC(B))  &kp RC(PAUSE_BREAK)
             >;
         };
 
