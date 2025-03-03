@@ -17,6 +17,8 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <locale/keys_de.h>
 
+&studio_unlock;
+
 &sk {
     release-after-ms = <1000>;
     quick-release;
