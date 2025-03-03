@@ -17,6 +17,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <locale/keys_de.h>
 
+
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+
 &sk {
     release-after-ms = <1000>;
     quick-release;
