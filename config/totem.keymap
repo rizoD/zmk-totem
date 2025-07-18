@@ -80,7 +80,7 @@
 
         braket_layer {
             bindings = <
-        &kp LS(RIGHT)     &kp RC(DELETE)     &trans        &trans             &trans         &kp DE_LBKT    &kp DE_LBRC    &kp DE_RBRC    &kp DE_RBKT   &kp DE_FSLH
+        &kp LS(LC(RIGHT))     &kp RC(DELETE)     &trans        &trans             &trans         &kp DE_LBKT    &kp DE_LBRC    &kp DE_RBRC    &kp DE_RBKT   &kp DE_FSLH
         &kp RS(RC(LEFT))  &kp LC(BACKSPACE)  &kp DEL       &trans             &trans         &kp DE_LT      &kp DE_LPAR    &kp DE_RPAR    &kp DE_EQUAL  &kp EXCL
 &trans  &trans            &trans             &trans        &trans             &trans         &kp DE_GT      &kp DE_QMARK   &kp DE_SEMI    &kp DE_COLON  &kp DE_EURO   &trans
                                              &kp LS(HOME)  &kp LS(LC(RIGHT))  &kp LS(END)    &kp DE_MICRO   &kp DE_SQUARE  &kp DE_CUBE
