@@ -107,7 +107,7 @@
 
         umlaut_layer {
             bindings = <
-        &trans            &trans             &trans  &kp DE_EURO    &studio_unlock    &trans           &kp DE_U_UMLAUT   &trans      &kp DE_O_UMLAUT   &trans
+        &trans            &trans             &trans  &kp DE_EURO    &studio_unlock    &kp LG(F4)          &kp DE_U_UMLAUT   &trans      &kp DE_O_UMLAUT   &trans
         &kp DE_A_UMLAUT   &kp DE_CAPITAL_SZ  &trans  &trans         &trans    &kp L            &kp LEFT_GUI      &kp LA(F4)  &kp LC(F4)        &kp LC(W)
 &trans  &kp DE_MICRO      &trans             &trans  &trans         &trans    &kp LS(LA(TAB))  &kp LA(TAB)       &trans      &trans            &trans     &trans
                                              &trans  &trans         &trans    &trans           &trans            &trans
